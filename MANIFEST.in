@@ -1,0 +1,2 @@
+include README.md LICENSE CHANGELOG.txt
+recursive-include wagtail_grafl *.py *.html
