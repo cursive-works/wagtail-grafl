@@ -1,3 +1,3 @@
-__version__ = "0.0.1-dev"
+__version__ = "0.0.1"
 
 default_app_config = 'wagtail_grafl.apps.WagtailGraflAppConfig'
