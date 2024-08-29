@@ -5,7 +5,7 @@ import copy
 from django import forms
 from django.core.exceptions import ValidationError
 
-from wagtail.core import blocks
+from wagtail import blocks
 
 from .config import WAGTAIL_GRAFL_PLOT_DEFAULTS
 from .utils import dict_merge

@@ -49,7 +49,7 @@ This make it possible for custom blocks to pull in data from other sources and g
 Add the StreamBlock to a StreamField on a Wagtail page:
 
 ```
-from wagtail.core import blocks
+from wagtail import blocks
 from wagtail_grafl.blocks import GraflBlock
 
 class MyStreamBlock(blocks.StreamBlock):
@@ -60,8 +60,8 @@ Add the `StreamBlock` to a `StreamField` on a Wagtail page:
 
 ```
 from wagtail.admin.edit_handlers import StreamFieldPanel
-from wagtail.core.fields import StreamField
-from wagtail.core.models import Page
+from wagtail.fields import StreamField
+from wagtail.models import Page
 
 from .blocks import MyStreamBlock
 
